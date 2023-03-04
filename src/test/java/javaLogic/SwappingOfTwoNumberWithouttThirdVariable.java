@@ -1,0 +1,15 @@
+package javaLogic;
+
+public class SwappingOfTwoNumberWithouttThirdVariable {
+
+	public static void main(String[] args) {
+		int a=10;int b=20;
+		System.out.println("Before swapping values of a and b is "+a+" "+b);
+		a=a+b;//30
+		b=a-b;//30-20=10
+		a=a-b;//30-10=20
+     System.out.println("After swapping values of a and b is " +a+" "+b);
+
+	}
+
+}
